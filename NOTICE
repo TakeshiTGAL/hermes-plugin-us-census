@@ -1,0 +1,9 @@
+Census Bureau statistics are U.S. government works.
+
+This product uses the Census Bureau Data API but is not endorsed or certified by the Census Bureau.
+
+This plugin sends HTTPS requests to api.census.gov, geocoding.geo.census.gov, and tigerweb.geo.census.gov. It does not copy Census web pages into the tool result.
+
+A free CENSUS_API_KEY is required for estimate queries. Request one at https://www.census.gov/data/developers/guidance/api-user-guide.API_Key.html
+
+The key stays in the profile .env. This repository does not contain a key.

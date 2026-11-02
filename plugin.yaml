@@ -1,0 +1,21 @@
+name: us-census
+version: "0.1.0"
+requires_hermes: ">=0.21.4"
+description: >-
+  US Census ACS population, median household income, median age, and housing
+  for a place. Every figure carries its vintage year, variable id, and margin
+  of error. This product uses the Census Bureau Data API but is not endorsed or certified by the Census Bureau.
+author: TakeshiTGAL
+license: MIT
+homepage: https://github.com/TakeshiTGAL/hermes-plugin-us-census
+tags: [census, acs, population, income, geography]
+provides_tools:
+  - census_datasets
+  - census_geographies
+  - census_variables
+  - census_place
+  - census_get
+  - census_compare
+provides_hooks: []
+provides_middleware: []
+python_dependencies: []
